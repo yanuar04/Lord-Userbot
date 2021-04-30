@@ -28,7 +28,7 @@ async def get_readable_time(seconds: int) -> str:
         if seconds == 0 and remainder == 0:
             break
         time_list.append(int(result))
-        seconds = int(remainder)
+       . seconds = int(remainder)
 
     for x in range(len(time_list)):
         time_list[x] = str(time_list[x]) + time_suffix_list[x]
